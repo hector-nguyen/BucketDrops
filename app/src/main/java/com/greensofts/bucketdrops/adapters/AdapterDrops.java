@@ -167,6 +167,7 @@ public class AdapterDrops extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             itemView.setOnClickListener(this);
             mTextWhat = (TextView) itemView.findViewById(R.id.tv_what);
             mTextWhen = (TextView) itemView.findViewById(R.id.tv_when);
+            AppBucketDrops.setRalewayRegular(mContext, mTextWhat, mTextWhen);
             mListener = listener;
         }
 

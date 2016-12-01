@@ -1,13 +1,14 @@
 <resources>
-    <string name="app_name">Bucket Drops</string>
-    <string name="str_add_drop">Add a Drop</string>
+    <string name="app_name">BucketDrops</string>
+    <string name="str_add_drop">Add a drop</string>
+    <string name="sans_serif_thin">sans-serif-thin</string>
     <string name="hint_et_drop">What is it?</string>
-    <string name="str_add_it">Add it</string>
-    <string name="str_no_items">No Items To Display</string>
-    <string name="action_add">Add</string>
-    <string name="action_none">None</string>
+    <string name="str_add_it">Add It</string>
     <string name="action_most_time_left">Most Time Left</string>
     <string name="action_least_time_left">Least Time Left</string>
     <string name="action_complete">Complete</string>
     <string name="action_incomplete">Incomplete</string>
+    <string name="action_add">Add</string>
+    <string name="action_none">None</string>
+    <string name="str_no_items">No Items To Display</string>
 </resources>

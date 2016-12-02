@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BucketDrops</string>
+    <string name="app_name">Bucket Drops</string>
     <string name="str_add_drop">Add a drop</string>
     <string name="sans_serif_thin">sans-serif-thin</string>
     <string name="hint_et_drop">What is it?</string>
@@ -11,4 +11,8 @@
     <string name="action_add">Add</string>
     <string name="action_none">None</string>
     <string name="str_no_items">No Items To Display</string>
+    <string name="notif_title">Achievement</string>
+    <string name="notif_message">"You are nearing your goal "</string>
+    <string name="notif_long_message">"Congratulations, You are on the verge of accomplishing your goal "</string>
+    <string name="mark_completed">Mark Completed</string>
 </resources>

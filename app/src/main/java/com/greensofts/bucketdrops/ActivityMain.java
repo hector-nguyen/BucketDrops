@@ -23,6 +23,7 @@ import com.greensofts.bucketdrops.adapters.MarkListener;
 import com.greensofts.bucketdrops.adapters.ResetListener;
 import com.greensofts.bucketdrops.adapters.SimpleTouchCallBack;
 import com.greensofts.bucketdrops.beans.Drop;
+import com.greensofts.bucketdrops.extras.Util;
 import com.greensofts.bucketdrops.widgets.BucketRecyclerView;
 
 import io.realm.Realm;
@@ -126,6 +127,7 @@ public class ActivityMain extends AppCompatActivity {
         helper.attachToRecyclerView(mRecycler);
 
         initBackgroundImage();
+        Util.scheduleAlarm(this);
     }
 
     @Override
